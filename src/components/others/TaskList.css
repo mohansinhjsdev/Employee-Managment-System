@@ -1,0 +1,11 @@
+  
+
+  .task-scroll::-webkit-scrollbar{
+    display: none;
+  }
+  
+
+  .task-scroll{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
