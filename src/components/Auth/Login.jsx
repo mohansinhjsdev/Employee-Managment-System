@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 
 
-const Login = () => {
+const Login = ({handleLogin}) => {
+
 
   const [email,setEmail] = useState('')
   const [password,setPassword] = useState('')
 
   const submitHandler = (e)=>{
     e.preventDefault()
-    console.log("Email is", email)
-    console.log("password is", password)
-
+    handleLogin(email,password)
     setEmail('')
     setPassword('')
   }
@@ -27,7 +26,7 @@ const Login = () => {
             <div className="mb-5">
               <label
 
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-white"
               >
                 Your email
               </label>
@@ -46,7 +45,7 @@ const Login = () => {
             <div className="mb-5">
               <label
                 
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                className="block mb-2 text-sm font-medium text-white dark:text-white"
               >
                 Your password
               </label>

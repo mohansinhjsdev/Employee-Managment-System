@@ -1,17 +1,29 @@
-<<<<<<< HEAD
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient **frontend-only** web application to manage employee records. Built with **React** and **Vite**, this app allows you to add, edit, delete, and view employees — all data is stored locally in the browser using `localStorage`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: React
+- **Build Tool**: Vite
+- **State Management**: React Hooks
+- **Styling**: CSS / [Mention if you're using Tailwind, Bootstrap, etc.]
+- **Storage**: `localStorage` (no backend required)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Employee-Managment-System
->>>>>>> 92548eae8f1a2a9243b466f4f37d9833d6e31e0b
+---
+
+## 📦 Features
+
+- ✅ Add new employees
+- ✅ Edit existing employee data
+- ✅ Delete employees
+- ✅ Persistent data using `localStorage`
+- ✅ Clean and responsive user interface
+
+---
+
+## 📁 Project Structure
+
 
