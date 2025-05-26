@@ -8,8 +8,8 @@ A simple and efficient **frontend-only** web application to manage employee reco
 
 - **Framework**: React
 - **Build Tool**: Vite
-- **State Management**: React Hooks
-- **Styling**: CSS / [Mention if you're using Tailwind, Bootstrap, etc.]
+- **State Management**: React Hooks, useState,useEffect, useContext
+- **Styling**: CSS / TailwindCSS
 - **Storage**: `localStorage` (no backend required)
 
 ---
@@ -24,6 +24,5 @@ A simple and efficient **frontend-only** web application to manage employee reco
 
 ---
 
-## 📁 Project Structure
 
 
