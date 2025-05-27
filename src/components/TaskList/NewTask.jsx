@@ -9,7 +9,7 @@ const NewTask = ({data}) => {
                   <h4 className="text-base">{data.date}</h4>
                 </div>
                 <h2 className="mt-5 text-xl font-semibold">{data.title}</h2>
-                <p className="text-sm mt-2">{data.descrition}</p>
+                <p className="text-sm mt-2 overflow-hidden">{data.description}</p>
                 <div className='mt-4'>
                     <button className='w-full bg-blue-500 py-1.5 rounded rounded-sm cursor-pointer hover:bg-blue-600 transition duration-300'>Accpet Task</button>
                     
